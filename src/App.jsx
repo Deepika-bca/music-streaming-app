@@ -18,8 +18,8 @@ function App() {
  
           <div>
           <Routes>
-            <Route path='D:\MUSICPLAYER\src\App.jsx/songs' element={<Songs/>} />
-            <Route path='D:\MUSICPLAYER\src\App.jsx/favorities' element={<Favorities/>} />
+            <Route path='/songs' element={<Songs/>} />
+            <Route path='/favorities' element={<Favorities/>} />
             <Route path='/playlist' element={<Playlist/>} />
            </Routes>
           </div>
